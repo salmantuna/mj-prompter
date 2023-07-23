@@ -3,3 +3,4 @@ images/
 yarn-error.log
 package-lock.json
 .env
+.DS_Store
