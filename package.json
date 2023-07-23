@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "mid-journey-bot",
+  "version": "1.0.0",
+  "description": "Mid Journey Bot",
+  "main": "index.js",
+  "dependencies": {
+    "bard-ai": "^1.5.4",
+    "dotenv": "^16.3.1",
+    "midjourney": "^4.3.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tuna",
+  "license": "ISC"
+}
