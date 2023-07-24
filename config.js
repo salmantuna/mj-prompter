@@ -1,4 +1,5 @@
-import * as dotenv from "dotenv";
+import dotenv from "dotenv";
+dotenv.config()
 const config = {
   midjourney: {
     ServerId: process.env.MJ_SERVER_ID,

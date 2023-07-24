@@ -1,8 +1,8 @@
 import Bard, { askAI } from "bard-ai";
-import { bard } from "./config.js";
+import config from "./config.js";
 
 const generatePrompts = async (count) => {
-  await Bard.init(bard.cookieKey);
+  await Bard.init(config.bard.cookieKey);
   const res = await askAI(
     `[A high-end fashion photography shoot of a [blonde female] model wearing a [Ralph Lauren style] dress. The shoot takes place in a [yacht club]. The model is posing on the deck of the yacht, on the beach, and in the water. The photos are stylish and elegant.] mekan, model, tarz, poz, ellerin duruşu gibi elementleri değiştirerek benzeri ${count} adet midjourney promptu ver. Her Promptun başında % işareti olsun ve sadece promptları bas.`,
     true
